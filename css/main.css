@@ -1,0 +1,187 @@
+
+/*DEVELOPER: Matthew Velasquez, IS117-003, Fall 2023*/
+
+
+*{
+    font-family: "Malgun Gothic", "Lucida Console", serif ;
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: .75rem;
+}
+
+}
+
+
+
+.logo{
+    width: 240px;
+    height: 70px;
+}
+/* style for Nav Menu*/
+
+.bg-dark{
+    background-color: #1c1f23 !important;
+
+}
+.navbar-nav ul li{
+    width: 20%;
+
+}
+
+  .nav-item input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+      margin-left: 16px;
+    font-size: 17px;
+      border-radius: 15px;
+}
+
+.dropdown-menu{
+    background-color: #dc3545; !important;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.display-4{
+
+    font-weight: bold;
+    font-style: oblique;
+    font-size: 50px;
+    text-align: center;
+    color: #ff1a1a;
+    padding-bottom: 1em;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 5% 5%;
+}
+
+/* contact form styles*/
+
+.contact-container input[type=text], & select, & textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+    & input[type=submit] {
+    background-color: #b02a37;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+    & input[type=submit]:hover {
+    background-color: #842029;
+}
+
+
+.contact-container {
+    border-radius: 5px;
+    background-color: #eccccf;
+    padding: 20px;
+    margin: 3em;
+
+}
+
+/* interior page styles*/
+
+@media (min-width: 643px) {
+    .Godzilla-image {
+        margin-top: 8em;
+        margin-left: 5em;
+        margin-right: 3em;
+        float: left;
+        max-height: 40%;
+        max-width: 40%;
+
+    }
+}
+.Godzilla-image{
+    margin-top: 8em;
+    margin-left: 5em;
+    margin-right: 3em;
+    float: left;
+    max-height: 50%;
+    max-width: 50%;
+}
+.info-text{
+    margin-left: 2.5em;
+    margin-top: 5em;
+    margin-right: 5em;
+    float: inherit;
+    font-size: 150%;
+
+}
+
+.info-text h3{
+    font-weight: bolder;
+
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width: 740px){
+
+    .info-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-text h3{
+        font-weight: bolder;
+
+    }
+
+}
+.btn-primary{
+    background-color: #b02a37;
+    border: black;
+}
+.btn-primary:hover{
+    background-color: #842029;
+}
+
+body{
+    background-color: snow;
+}
+
+.card-body{
+    background-color: #e9ecef;
+}
+.card-header h2{
+   text-align: center;
+}
